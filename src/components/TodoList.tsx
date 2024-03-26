@@ -30,16 +30,16 @@ interface Props {
     todos: Todo[];
     setTodos: React.Dispatch<React.SetStateAction<Todo[]>>
     completedTodo: Todo[];
-    setCompletedTodo: React.Dispatch<React.SetStateAction<Todo[]>>
+    setCompletedTodo: React.Dispatch<React.SetStateAction<Array<Todo>>>;
 }
 
 const TodoList: React.FC<Props> = ({ todos, setTodos, completedTodo, setCompletedTodo }) => {
     return (
         <div className="container">
             <Droppable droppableId='TodosList'>
-                {(provided) => (
+                {(provided, snapshot) => (
                         <div
-                            className='todos'
+                            className={`todos ${snapshot.isDraggingOver ? "dragactive" : ""}`}
                             ref={provided.innerRef}
                             {...provided.droppableProps}
                         >
@@ -59,9 +59,9 @@ const TodoList: React.FC<Props> = ({ todos, setTodos, completedTodo, setComplete
                 )}
             </Droppable>
             <Droppable droppableId='TodosRemove'>
-                {(provided) => (
+                {(provided, snapshot) => (
                         <div
-                            className='todos'
+                            className={`todos remove ${snapshot.isDraggingOver ? "dragcomplete" : ""}`}
                             ref={provided.innerRef}
                             {...provided.droppableProps}
                         >
