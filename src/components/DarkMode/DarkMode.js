@@ -3,18 +3,11 @@ import { ReactComponent as Sun } from "./Sun.svg";
 import { ReactComponent as Moon } from "./Moon.svg";
 import "./DarkMode.css";
 
-const DarkMode = () => {
-    const setDarkMode = () => {
-        document.querySelector('body').setAttribute('data-theme', 'dark')
+const DarkMode = ({setThemeClass}) => {
+    
+    const toggkeTheme = () => {
+        setThemeClass((oldTheme) => oldTheme === 'light' ? 'dark' : 'light');
     }
-    const setLightMode = () => {
-        document.querySelector('body').setAttribute('data-theme', 'light')
-    }
-    const toggkeTheme = (e) => {
-        if (!e.target.checked) setDarkMode();
-        else setLightMode();
-    }
-    setDarkMode()
     return (
         <div className='dark_mode'>
             <input

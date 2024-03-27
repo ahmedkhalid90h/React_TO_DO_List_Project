@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
 
 .App {
@@ -7,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2f74c0;
+  background-color: var(--body_background);
   font-family: "Neucha", cursive;
 }
 
@@ -15,7 +14,7 @@
   text-transform: uppercase;
   font-size: 40px;
   margin: 30px 0;
-  color: white;
+  color: var(--body_color);
   z-index: 1;
   text-align: center;
 }
@@ -26,5 +25,3 @@
     font-size: 35px;
   }
 }
-
-

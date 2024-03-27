@@ -72,11 +72,12 @@ const App = () => {
     setCompletedTodo(complete)
     setTodos(active)
   }
+  const [themeClass, setThemeClass] = useState("light")
   return (
       <DragDropContext onDragEnd={onDragEnd}>
-        <div className="App">
+        <div className={`App ${themeClass}`}>
           <span className="heading">tasks</span>
-          {/* <DarkMode /> */}
+          <DarkMode setThemeClass={setThemeClass} />  
           <InputFeild todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
           <TodoList 
             todos={todos} 
@@ -91,3 +92,4 @@ const App = () => {
 }
 
 export default App;
+
