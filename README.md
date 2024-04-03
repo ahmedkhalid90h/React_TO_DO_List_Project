@@ -14,6 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+![alt text](./img/Screenshot%20from%202024-04-04%2000-05-10.png)
+
+![alt text](./img/Screenshot%20from%202024-04-04%2000-05-32.png)
+
+![alt text](./img/Screenshot%20from%202024-04-04%2000-05-26.png)
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
