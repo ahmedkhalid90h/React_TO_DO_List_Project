@@ -10,6 +10,19 @@
 ![alt text](./img/Screenshot%20from%202024-04-04%2000-05-26.png)
 
 
+## Current Features
+---
+* Create Todo List in application.
+* Add, Update and Remove tasks.
+* Set task due Dates and Times.
+* User registration.(Sign Up)
+* User login / social login (Google)
+* Beautiful Material design and interface.
+* Set priority for your tasks.
+* Mark tasks as Completed.
+* Works offline, all data stored on your device.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
