@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React_TO_DO_List_Project/static/css/main.5c3dd0cc.css",
+    "main.js": "/React_TO_DO_List_Project/static/js/main.04e0f36f.js",
+    "static/media/Sun.svg": "/React_TO_DO_List_Project/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/React_TO_DO_List_Project/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "index.html": "/React_TO_DO_List_Project/index.html",
+    "main.5c3dd0cc.css.map": "/React_TO_DO_List_Project/static/css/main.5c3dd0cc.css.map",
+    "main.04e0f36f.js.map": "/React_TO_DO_List_Project/static/js/main.04e0f36f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c3dd0cc.css",
+    "static/js/main.04e0f36f.js"
+  ]
+}
