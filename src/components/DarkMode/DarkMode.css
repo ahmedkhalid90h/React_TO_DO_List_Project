@@ -2,18 +2,6 @@
     margin: -50px 10% 30px 90%;
 }
 
-.dark_mode_label {
-    width: 65px;
-    height: 30px;
-    position: relative;
-    display: block;
-    background: #388ae2;
-    border-radius: 200px;
-    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4),
-        inset 0px -5px 15px rgba(255, 255, 255, 0.4);
-    cursor: pointer;
-    transition: 0.3s;
-}
 .dark_mode_label:after {
     content: "";
     width: 25px;
