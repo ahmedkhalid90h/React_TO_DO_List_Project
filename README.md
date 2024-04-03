@@ -1,3 +1,14 @@
+# .netTask: Routine Manager App
+*netTask is a beautifully designed, easy-to-use, effective to-do list, and task management tool for your live that helps you to create schedules, manage time and stay focused, It's free for everyone.*
+
+
+![alt text](./img/Screenshot%20from%202024-04-04%2000-05-10.png)
+
+![alt text](./img/Screenshot%20from%202024-04-04%2000-05-32.png)
+
+![alt text](./img/Screenshot%20from%202024-04-04%2000-05-26.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,11 +25,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-![alt text](./img/Screenshot%20from%202024-04-04%2000-05-10.png)
-
-![alt text](./img/Screenshot%20from%202024-04-04%2000-05-32.png)
-
-![alt text](./img/Screenshot%20from%202024-04-04%2000-05-26.png)
 
 ### `npm test`
 
