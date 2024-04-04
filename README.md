@@ -22,6 +22,21 @@
 * Mark tasks as Completed.
 * Works offline, all data stored on your device.
 
+Planned Features
+---
+* 🔔Task notifications
+* 📃Multiple Task Lists
+* 🎤Add tasks by voice.
+* ⚡Task Tags
+* ⚙️ Settings Menu
+* 💥Overview customization
+* 🎨Themes
+
+Known Issues
+---
+To report issues, please email me at bhavesh.ahmedkhalid90h@gmail.com.
+
+
 
 # Getting Started with Create React App
 
