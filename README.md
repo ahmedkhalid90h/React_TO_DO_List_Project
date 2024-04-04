@@ -22,7 +22,7 @@
 * Mark tasks as Completed.
 * Works offline, all data stored on your device.
 
-Planned Features
+## Planned Features
 ---
 * 🔔Task notifications
 * 📃Multiple Task Lists
@@ -31,6 +31,13 @@ Planned Features
 * ⚙️ Settings Menu
 * 💥Overview customization
 * 🎨Themes
+
+## Technologies
+* ⚙️ js
+* ⚙️ HTML
+* ⚙️ CSS
+* ⚙️ Frameworks
+* ⚙️ react hooks
 
 Known Issues
 ---
