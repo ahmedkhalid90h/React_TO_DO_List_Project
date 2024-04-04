@@ -39,9 +39,13 @@
 * ⚙️ Frameworks
 * ⚙️ react hooks
 
+## ✹ Link to the Project ✹
+* [Todo list React App](https://ahmedkhalid90h.github.io/React_TO_DO_List_Project/) 
+
+
 Known Issues
 ---
-To report issues, please email me at bhavesh.ahmedkhalid90h@gmail.com.
+To report issues, please email me at ahmedkhalid90h@gmail.com.
 
 
 
@@ -92,3 +96,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## ✹ Link to the Project ✹
+* [Todo list React App](https://ahmedkhalid90h.github.io/React_TO_DO_List_Project/) 
+
+
+Known Issues
+---
+To report issues, please email me at ahmedkhalid90h@gmail.com.
